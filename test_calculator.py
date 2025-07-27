@@ -5,6 +5,7 @@
 # print(sub(2,3))
 
 #########################################################
+#unit test
 # pip install pytest
 import pytest
 from calculator import add, sub, mul, divide
@@ -30,4 +31,4 @@ def test_divide_by_zero():
         divide(5, 0)
     assert str(e.value) == "تقسیم بر صفر مجاز نیست!"
 
-#pytest test_calculator.py
+#pytest test_calculator.py in command line
